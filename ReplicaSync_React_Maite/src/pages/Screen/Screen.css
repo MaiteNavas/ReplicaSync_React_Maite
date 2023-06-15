@@ -1,0 +1,116 @@
+h2 {
+    text-align: left;
+    font-weight: bold;
+    align-self: center;
+    font-size: 3vw;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1,5vw;
+    color: #857B77;
+}
+
+.section-screens {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.main-div{
+    padding: 5%
+}
+
+#screens-div-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.screens-div-1-testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.screen-div-1-article {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+#screens-div-1-brands {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    background-color: #FFFFFF;
+}
+
+#screens-div-1-brands-ul {
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.screens-div-1-brands-li {
+    padding: 2vw;
+}
+
+#screens-div-2 {
+    background-color: #E9EFF6;
+}
+
+.logo-main-2{
+    width: 7vw;
+    height: 7vw; 
+}
+
+.screens-div-2-ul {
+    display:flex;
+    flex-flow: row nowrap;
+}
+
+.screens-div-2-li {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.screens-div-2-li-num {
+    font-weight: bold;
+    font-size: 5vw;
+    color: #333333;
+}
+
+#screens-div-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-iphone-bottom {
+    width: 100%;
+}
+
+#iphone-bottom {
+    width: 80%;
+    padding: 10%;
+}
+
+#screens-div-3-p{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+}
+
+#screens-div-3-buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}

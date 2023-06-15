@@ -1,0 +1,144 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+    align-self: center;
+    font-size: 5vw;
+}
+
+h2 {
+    text-align: left;
+    font-weight: bold;
+    align-self: center;
+    font-size: 3vw;
+}
+p {
+    font-weight: 300;
+    font-size: 1,5vw;
+    color: #857B77;
+}
+
+#section-intro {
+    display:flex;
+    flex-flow: column nowrap;
+    align-content: space-evenly;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.main-div{
+        padding: 5%;
+}
+
+
+#intro-div-1 {
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro-div-1-p {
+    padding-left: 17%;
+    padding-right: 17%;
+    text-align: center;
+}
+
+#intro-div-1-button {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 2%;
+}
+
+#intro-div-img {
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 15%;
+    align-items: center;
+}
+
+#intro-div-img-iphone {
+    width: 70%;
+}
+
+#intro-div-img-iphone:hover {
+    width: 80%;
+}
+
+.intro-div-2-ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.intro-div-2-li {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-div-2-li-p {
+    font-weight: bold;
+    color: #333333;
+    padding: 2vw;
+}
+
+.background-img {
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+    padding:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-main {
+    width: 10vw;
+    height: 10vw;
+    padding: 1vw;
+}
+
+#background-logo-purple {
+    background-color: #EBE7FA;
+}
+
+#logo-purple {
+    fill: #AA7FEC;
+}
+
+#background-logo-green {
+    background-color: #DAF4EF;
+}
+
+#logo-green{
+    fill: #1ACA94;
+}
+
+#background-logo-pink {
+    background-color: #F8E5EA;
+}
+
+#logo-pink{
+    fill: #FF556F;
+}
+
+#background-logo-yellow {
+    background-color: #F8F1DE;
+}
+
+#logo-yellow{
+    fill: #FFB30F;
+}
+
+#background-logo-blue {
+    background-color: #E2F2F9;
+}
+
+#logo-blue{
+    fill: #50B8E8;
+}

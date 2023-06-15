@@ -1,0 +1,131 @@
+h2 {
+    text-align: left;
+    font-weight: bold;
+    align-self: center;
+    font-size: 3vw;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1,5vw;
+    color: #857B77;
+}
+
+#section-description {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.main-div{
+    padding: 5%
+}
+
+.description-div-1 {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#description-div-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#description-div-1-img{
+    width: 40%;
+}
+
+#description-div-1-img-mix{
+    width: 100%;
+}
+
+#description-div-1-text{
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#description-div-ul{
+    list-style: square;
+    color: #857B77;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+#button-lightbox {
+    padding: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#description-div-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #E9EFF6;
+    padding-top: 100px;  
+}
+
+#description-div-2-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#description-div-2-left-button{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+}
+
+.div-2-button {
+    border-radius: 0px;
+    background-color: #F7FAFD;
+    color: #777879;
+    font-weight: bold;
+    margin: 5px;
+}
+
+#div-2-button-1{
+    background-color: #AA7FEC;
+    color: #F7FAFD;
+}
+
+#description-div-2-left-ul {
+    display: flex;
+    flex-direction:column;
+    padding-left: 15px;
+    list-style: circle;
+}
+
+.description-div-2-left-li{
+    font-weight: lighter;
+    font-weight: 300;
+    font-size: 1,5vw;
+    color: #857B77;
+}
+
+
+#description-div-2-left-button {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+#button-privacy {
+    background-color: #E9EFF6;
+    color:#333333;
+    border-color: #333333;
+}
+
+#description-div-2-right {
+    width: 40%;
+}
+
+#description-div-2-right-img {
+    width: 100%;
+}

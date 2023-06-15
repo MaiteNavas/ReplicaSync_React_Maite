@@ -1,0 +1,42 @@
+footer{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    padding:75px 25px 25px 25px;
+    border-top: #333333;
+}
+
+.footer-main {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+h4 {
+    color:#777879;
+}
+
+.footer-div-rrss {
+    display:flex;
+    flex-flow: row wrap;
+    gap: 2px;
+    width: 20%;
+}
+
+.footer-div {
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.img-rrss-background {
+    background-color: #777879;
+    border-radius: 25px;
+    display:flex;
+}
+
+.img-rrss {
+    filter: invert(100%);
+}

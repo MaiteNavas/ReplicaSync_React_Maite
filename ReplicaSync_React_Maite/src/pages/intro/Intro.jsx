@@ -9,7 +9,7 @@ import Footer from '../../components/footer/Footer'
 function Intro() {
     return (
         <div>
-            <Navbar></Navbar>
+            <Navbar/>
             <section id="section-intro">
                 <div className="main-div" id="intro-div-1">
                     <h1>Mobile App Landing Page</h1>
@@ -17,8 +17,8 @@ function Intro() {
                     the first app to harness the power of social connections to help you stay focused and get
                     organized</p>
                     <div id="intro-div-1-button">
-                        <ButtonAttom id="download-apple" button_content={'DOWNLOAD'}></ButtonAttom>
-                        <ButtonAttom id="download-triangle" button_content={'DOWNLOAD'}></ButtonAttom>
+                        <ButtonAttom id="download-apple" button_content={'DOWNLOAD'}/>
+                        <ButtonAttom id="download-triangle" button_content={'DOWNLOAD'}/>
                     </div>
                 </div>
                 <div className="main-div" id="intro-div-img">
@@ -68,7 +68,7 @@ function Intro() {
                     </ul>
                 </div>
             </section>
-            <Footer></Footer>
+            <Footer/>
         </div>
     )
 }

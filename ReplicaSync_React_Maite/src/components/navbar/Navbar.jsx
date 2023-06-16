@@ -9,24 +9,27 @@ function Navbar () {
     return (
 
         <nav className="header">
-            <Link to='/home'><img className="logo" src={logo} alt="Logo Sync"/></Link>
+            <Link to='/'>
+                <img className="logo" src={logo} alt="Logo Sync"/>
+            </Link>
             <ul>
                 <li className="nav-li">
-                    <Link to='/home'><h3>HOME</h3></Link>
+                    <Link to='/description'>
+                        <h3>DESCRIPTION</h3>
+                    </Link>
                 </li>
                 <li className="nav-li">
-                    <Link to='/description'><h3>DESCRIPTION</h3></Link>
+                    <Link to='/screen'>
+                        <h3>SCREENS</h3>
+                    </Link>
                 </li>
-                <li className="nav-li">
-                    <Link to='/screen'><h3>SCREENS</h3></Link>
-                </li>
-                    <li className="nav-li" id="dropdown">
-                        <h3 id="dropdown">EXTRA</h3>
-                            <ul id="dropdown-ul">
-                                <li>ARTICLE DETAILS</li>
-                                <li>TERM CONDITIONS</li>
-                                <li>PRIVACY POLICY</li>
-                            </ul>
+                <li className="nav-li" id="dropdown">
+                    <h3 id="dropdown">EXTRA</h3>
+                        <ul id="dropdown-ul">
+                            <li>ARTICLE DETAILS</li>
+                            <li>TERM CONDITIONS</li>
+                            <li>PRIVACY POLICY</li>
+                        </ul>
                 </li>
                 <li>
                     <Link to='https://factoriaf5.org/'>

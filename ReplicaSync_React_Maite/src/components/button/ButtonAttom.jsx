@@ -1,6 +1,7 @@
 import './ButtonAttom.css'
 
 
+
 function ButtonAttom({button_content}) {
     return(
     <>

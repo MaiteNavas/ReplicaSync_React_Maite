@@ -8,7 +8,7 @@ import Footer from '../../components/footer/Footer'
 function Description() {
     return(
         <div>
-            <Navbar></Navbar>
+            <Navbar/>
             <section id="section-description">
                 <div className="main-div" id="description-div-1">
                     <div id="description-div-1-img">
@@ -28,9 +28,9 @@ function Description() {
                 <div className="main-div" id="description-div-2">
                     <div id="description-div-2-left">
                         <ul id="description-div-2-left-button">
-                            <ButtonAttom className="div-2-button" id="div-2-button-1" button_content={'Schedule'}></ButtonAttom>
-                            <ButtonAttom className="div-2-button" id="div-2-button-2" button_content={'Tracking'}></ButtonAttom>
-                            <ButtonAttom className="div-2-button" id="div-2-button-3" button_content={'Organize'}></ButtonAttom>
+                            <ButtonAttom className="div-2-button" id="div-2-button-1" button_content={'Schedule'}/>
+                            <ButtonAttom className="div-2-button" id="div-2-button-2" button_content={'Tracking'}/>
+                            <ButtonAttom className="div-2-button" id="div-2-button-3" button_content={'Organize'}/>
                         </ul>
                         <p><b>Schedule task</b> to keep track os their competition. Sync provides multiple scheduling options alarms and reminders.</p>
                         <ul id="description-div-2-left-ul">
@@ -39,8 +39,8 @@ function Description() {
                             <li className="description-div-2-left-li">Use phone reminders to free up your long term memory which will reduce stress ande make you more productive</li>
                         </ul>
                         <ul id="description-div-2-left-button">
-                        <ButtonAttom className="button" button_content={'TERMS'}></ButtonAttom>
-                        <ButtonAttom className="button" id="button-privacy" button_content={'PRIVACY'}></ButtonAttom>
+                        <ButtonAttom className="button" button_content={'TERMS'}/>
+                        <ButtonAttom className="button" id="button-privacy" button_content={'PRIVACY'}/>
                         </ul>
                     </div>
                     <div id="description-div-2-right">
@@ -48,7 +48,7 @@ function Description() {
                     </div>
                 </div>
             </section>
-            <Footer></Footer>
+            <Footer/>
         </div>
  
     )
